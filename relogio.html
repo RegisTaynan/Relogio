@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relogio</title>
+    <link rel="stylesheet" href="relogio.css">
+</head>
+<body>
+    <div id="pai">
+        <span id="frase">
+
+        </span>
+        <span id="hora">
+
+        </span>
+        <span id="data">
+
+        </span>
+    </div>
+    <!--botões-->
+    <div id="div-btn">
+        <button onclick="MostrarFuso()" id="btn-Mostrar">Mostrar Fusos</button>
+        <button onclick="OcultarFuso()" id="btn-Ocultar" style="display: none;">Ocultar Fusos</button>
+    </div>
+    <!--Seção dos fusos temporáriamente-->
+    <div id="PaiFuso" style="display: none; margin-top: 10px;">
+        <div>
+            1
+        </div>
+        <div>
+            2
+        </div>
+        <div>
+            3
+        </div>
+        <div>
+            4
+        </div>
+    </div>
+    <script src="relogio.js"></script>
+</body>
+</html>

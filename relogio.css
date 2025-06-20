@@ -1,0 +1,36 @@
+body{
+background-color: black;
+color: #FF5F1F;
+}
+#pai{
+    text-align: center;
+    padding: 20px 15px 20px;
+}
+#frase, #data{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+@font-face {
+    font-family: "Clockicons";
+    src: url("fonts/clockicons.ttf") format("truetype");
+}
+#hora{
+    font-family: "Clockicons", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+#PaiFuso {
+    display: inline-block;
+}
+#div-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#btn-Ocultar, #btn-Mostrar{
+    border-radius: 12px;
+    width: 20%;
+    font-size: 18px;
+    color: #FF5F1F;
+    background-color: rgb(33, 33, 33);
+}
