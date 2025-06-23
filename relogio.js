@@ -22,7 +22,7 @@ setInterval(atualizarRelogio, 1000);
 //atualiza a data uma vez ao carregar a pagina
 atualizarData();
 function  MostrarFuso(){
-    document.getElementById("PaiFuso").style.display = 'block';
+    document.getElementById("PaiFuso").style.display = 'grid';
     document.getElementById("btn-Mostrar").style.display = 'none';
     document.getElementById("btn-Ocultar").style.display = 'inline-block';
 }
